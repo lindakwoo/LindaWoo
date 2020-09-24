@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a9df11b5.chunk.css",
+    "main.js": "/static/js/main.4fe14626.chunk.js",
+    "main.js.map": "/static/js/main.4fe14626.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8de8249c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8de8249c.js.map",
+    "static/js/2.b92184a3.chunk.js": "/static/js/2.b92184a3.chunk.js",
+    "static/js/2.b92184a3.chunk.js.map": "/static/js/2.b92184a3.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.e087a1ffdb10db392f7b3e8a35b6d75a.js": "/precache-manifest.e087a1ffdb10db392f7b3e8a35b6d75a.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.a9df11b5.chunk.css.map": "/static/css/main.a9df11b5.chunk.css.map",
+    "static/js/2.b92184a3.chunk.js.LICENSE.txt": "/static/js/2.b92184a3.chunk.js.LICENSE.txt",
+    "static/media/Phinney2.jpeg": "/static/media/Phinney2.ffb0ccc3.jpeg",
+    "static/media/Landing.module.css": "/static/media/tan.2e6f9c96.png",
+    "static/media/lindaWooHeadShot.jpeg": "/static/media/lindaWooHeadShot.98e01252.jpeg",
+    "static/media/linkedin.png": "/static/media/linkedin.6844403d.png",
+    "static/media/rezoom.jpeg": "/static/media/rezoom.5e88e3dd.jpeg",
+    "static/media/seashell.png": "/static/media/seashell.7908d0c0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8de8249c.js",
+    "static/js/2.b92184a3.chunk.js",
+    "static/css/main.a9df11b5.chunk.css",
+    "static/js/main.4fe14626.chunk.js"
+  ]
+}

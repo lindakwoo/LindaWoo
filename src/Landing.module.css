@@ -2,9 +2,23 @@
     background-image: url("./images/circles.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height:1600px;
+    height:100vh;
+    color:#2f4f4f;
+    position:relative;
+    z-index:10;
+}
+.LandingBack{
+    background-image: url("./images/SF.jpg");
+    background-repeat: no-repeat;
+    background-size: 130%;
+    background-position-x: 30%;
+    height:1500px;
+    width:100%;
     color:darkslategray;
-
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:0;
 }
 
 .Navbar{
@@ -62,9 +76,14 @@
 
 .AboutMe{
     display:grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 1% 40% 59%;
     grid-template-rows: 550px;
+}
 
+.AboutMePlaceholder{
+    color:transparent;
+    position:relative;
+    top:140px;
 }
 
 .SkillsContainer{
@@ -85,14 +104,14 @@
 }
 
 .Description{
-    /* background-image: url('./images/palatte.png');
-    background-repeat: no-repeat;
-    background-size: cover; */
-    width:500px;
+    width:550px;
     height:400px;
-    margin-top:380px;
-    font-size:24px;
-    margin-left:75px;
+    margin-top:360px;
+    font-size:40px;
+    margin-left:170px;
+    font-weight: bold;
+    color:white;
+    z-index:10;
 }
 
 .JavaScript{
@@ -122,15 +141,113 @@
 }
 
 .Projects{
+    /* background-image: url('./images/dots.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 25%; */
+    display:grid;
+    width:100%;
+    grid-template-rows:100px auto;
+    justify-items: center;
+    position:relative;
+    height:110vh;
+    transform:translate(0,700px);
+    background-color: #f9f3f3;
+}
+
+.ProjectsPlaceholder{
+    color:transparent;
+    position:absolute;
+    top:1850px;
+}
+
+.ProjectsText{
+    color:rgb(27, 20, 20);
+    font-size: 50px;
+    margin-top:125px;
+}
+
+.ProjectsContainer{
     display:grid;
     width:100%;
     grid-template-rows: 200px;
     grid-template-columns: 50% 50%;
     justify-items: center;
+    height:100vh;
+    margin-top:200px;
+}
+
+.LinkContainer{
+    width:350px;
     position:relative;
-    top:300px;
+}
+
+.Project p{
+    text-align: center;
 }
 
 .Projects img{
-    width:350px;
+    width:100%;
+}
+
+.RezoomLink{
+    width:100%;
+    height:201.5px;
+    z-index:500;
+}
+
+.PhinneyLink{
+    width:100%;
+    height:201.5px;
+    z-index:500;
+}
+
+.ContactContainer{
+    background-image: url("./images/circles.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -400px;
+    height:142vh;
+    position:relative;
+    color:black;
+    font-size: 30px;
+    top: 87vh;
+}
+
+.ContactPlaceholder{
+    color:transparent;
+    position:relative;
+    top:200px;
+}
+
+
+.Contact{
+  position:absolute;
+  top:-600px;
+  width:300px;
+  left:60%;
+}
+.Contact p{
+    text-align: left;
+    margin:5px;
+}
+
+.Contact a{
+    text-align: center;
+    text-decoration: none;
+    color:black;
+    width:10vw;
+    position:relative;
+    transform:translateX(-50%);
+}
+
+.Contact a img{
+    position:relative;
+    width:45px;
+    top:15px;
+    right:20px;
+}
+
+.Link{
+    margin-left: 120px !important;
 }
